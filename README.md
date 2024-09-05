@@ -9,7 +9,7 @@ El siguiente curso de Node.js diseñado principalmente  para mejorar la lógica 
 - [Contenido del Curso](#contenido-del-curso)
 - [Requisitos](#requisitos)
 - [Instalación y Configuración](#instalación-y-configuración)
-- [Estructura del Proyecto](#estructura-del-proyecto)
+
 
 
 
