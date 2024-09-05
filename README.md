@@ -29,9 +29,9 @@ Este curso se enfoca en mejorar  en Node.js mediante la práctica y el uso de di
    - Estructura básica de una aplicación Node.js
 
 2. **Módulos y Dependencias**
-   - Uso de `npm` y `yarn`
+   - Uso de `npm` y `pnpm`
    - Gestión de dependencias
-   - Principales librerías: `express`, `mongoose`, `cors`, `dotenv`, etc.
+   - Principales librerías y herramientas: `express`, `mongoose`, `cors`, `dotenv`,`postman` etc.
 
 3. **Desarrollo de Aplicaciones**
    - Creación de servidores con Express
