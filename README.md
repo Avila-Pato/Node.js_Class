@@ -1,6 +1,6 @@
 # Curso de Node.js para Mejorar la Lógica
 
-Bienvenido al curso de Node.js diseñado para mejorar la lógica de programación y profundizar en el uso de sus dependencias. Este curso está orientado a desarrolladores que desean fortalecer sus habilidades en Node.js y aprender a utilizar sus principales bibliotecas y herramientas.
+El siguiente curso de Node.js diseñado principalmente  para mejorar la lógica de programación y profundizar en el uso de sus dependencias.
 
 ## Índice
 
@@ -10,13 +10,12 @@ Bienvenido al curso de Node.js diseñado para mejorar la lógica de programació
 - [Requisitos](#requisitos)
 - [Instalación y Configuración](#instalación-y-configuración)
 - [Estructura del Proyecto](#estructura-del-proyecto)
-- [Uso](#uso)
-- [Contribuciones](#contribuciones)
-- [Licencia](#licencia)
+
+
 
 ## Introducción
 
-Este curso se enfoca en mejorar tus habilidades en Node.js mediante la práctica y el uso de diferentes dependencias. Aprenderás a construir aplicaciones más robustas y eficientes utilizando herramientas y librerías esenciales en el ecosistema de Node.js.
+Este curso se enfoca en mejorar  en Node.js mediante la práctica y el uso de diferentes dependencias. la idea es Aprenderás a construir aplicaciones más robustas y eficientes utilizando herramientas y librerías esenciales en el ecosistema de Node.js.
 
 ## Objetivos del Curso
 
@@ -27,7 +26,6 @@ Este curso se enfoca en mejorar tus habilidades en Node.js mediante la práctica
 ## Contenido del Curso
 
 1. **Introducción a Node.js**
-   - Instalación y configuración
    - Estructura básica de una aplicación Node.js
 
 2. **Módulos y Dependencias**
@@ -45,19 +43,7 @@ Este curso se enfoca en mejorar tus habilidades en Node.js mediante la práctica
    - Optimización de código
    - Manejo de errores y excepciones
 
-5. **Pruebas y Debugging**
-   - Uso de herramientas para pruebas (Mocha, Chai)
-   - Estrategias de debugging en Node.js
 
-6. **Despliegue y Mantenimiento**
-   - Despliegue en entornos de producción
-   - Mantenimiento y escalabilidad
-
-## Requisitos
-
-- Conocimientos básicos de JavaScript
-- Experiencia previa con Node.js es recomendable pero no esencial
-- Entorno de desarrollo configurado (Node.js y npm/yarn instalados)
 
 ## Instalación y Configuración
 
