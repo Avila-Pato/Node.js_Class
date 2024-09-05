@@ -1,3 +1,5 @@
+// Respuesta Http sin usar express
+
 const http = require('node:http') // Importa el módulo HTTP de Node.js
 const dittoJSON = require('./pokemon/ditto.json') // Importa el archivo JSON con datos de Ditto
 
@@ -28,12 +30,13 @@ const processRequest = (req, res) => {
             body += chunk.toString() // Convierte el chunk a string y lo añade al body
           })
 
+          // Termina la solicitud y procesa los datos recibidos
           req.on('end', () => {
             try {
               const data = JSON.parse(body) // Intenta parsear el cuerpo como JSON
               data.timestamp = Date.now() // Añade un timestamp a los datos
               res.setHeader('Content-Type', 'application/json charset=utf-8') // Establece el tipo de contenido como JSON
-              res.writeHead(201) // Código de estado 201 Created
+              res.writeHead(201) // Código de estado 201 Created Ok
               return res.end(JSON.stringify(data)) // Envía los datos recibidos con el timestamp añadido
             } catch (error) {
               res.setHeader('Content-Type', 'text/plain charset=utf-8') // Establece el tipo de contenido como texto
@@ -42,9 +45,10 @@ const processRequest = (req, res) => {
             }
           })
 
-          break
+          break // Salir del bloque switch
         }
-
+        // Otros metodos o rutas no implementados pero se mantienens
+        // para futuras implementaciones y saber como funciona el codigo
         default:
           res.setHeader('Content-Type', 'text/plain charset=utf-8') // Establece el tipo de contenido como texto
           res.writeHead(404) // Código de estado 404 Not Found
