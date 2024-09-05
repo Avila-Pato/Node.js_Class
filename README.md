@@ -15,7 +15,7 @@ El siguiente curso de Node.js diseñado principalmente  para mejorar la lógica 
 
 ## Introducción
 
-Este curso se enfoca en mejorar  en Node.js mediante la práctica y el uso de diferentes dependencias. la idea es Aprenderás a construir aplicaciones más robustas y eficientes utilizando herramientas y librerías esenciales en el ecosistema de Node.js.
+Este curso se enfoca en mejorar  en Node.js mediante la práctica y el uso de diferentes dependencias. la idea es mejorar en su uso para a construir aplicaciones más robustas y eficientes utilizando herramientas y librerías esenciales en el ecosistema de Node.js.
 
 ## Objetivos del Curso
 
